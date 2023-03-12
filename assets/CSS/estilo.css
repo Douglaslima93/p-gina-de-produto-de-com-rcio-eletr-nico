@@ -1,0 +1,29 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.menu ul li{
+    text-align: center;
+    width: 100%;
+}
+
+.carrinhoavatar {
+    justify-content: flex-end;
+}
