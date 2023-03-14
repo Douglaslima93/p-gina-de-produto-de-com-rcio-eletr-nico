@@ -6,3 +6,11 @@ function clickMenu() {
         itens.style.display = 'block'
     }
 }
+
+function clickCart() {
+    if (msgcarrinho.style.display == 'block') {
+        msgcarrinho.style.display = 'none'
+    } else {
+        msgcarrinho.style.display = 'block'
+    }
+}
